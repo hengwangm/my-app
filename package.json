@@ -30,12 +30,12 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
+  // "lint-staged": {
+  //   "src/**/*.{js,jsx}": [
+  //     "eslint --fix",
+  //     "git add"
+  //   ]
+  // },
   "browserslist": {
     "production": [
       ">0.2%",
