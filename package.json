@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pre-commit": "lint-staged",
+    "pre-commit": "npm test",
     "lint": "eslint --fix --ext .js,.jsx src/"
   },
   "eslintConfig": {
